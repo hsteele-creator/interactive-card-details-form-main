@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.outer-container {
+    width: 375px;
+    height: 27%;
+}
+
+.card-container {
+    background-image: url("images/bg-main-mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.card-container img {
+    width: 200px;
+    position: absolute;
+}
+
+#back {
+    top: 5%;
+    left: 43%;
+}
+
+#front {
+    top: 14%;
+    left: 5%;
+}
+
+.form-container {
+    width: 100%;
+    height: 100%;
+    margin-top: 20%;
+    padding: 20px 50px;
+}
+
+.form-container input {
+    width: 100%;
+}
+
+.date {
+    width: 30px;
+}
